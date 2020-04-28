@@ -99,9 +99,29 @@ header p {
   margin-right: 50px;
 }
 /*===MAIN===*/
+.box {
+  background-color: #fff;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  margin: 30px 0;
+  padding: 50px;
+}
 
-
-
+.small-box {
+  display: inline-block;
+  margin-top: 4%;
+  margin-bottom: -70%;
+  position: relative;
+  z-index: 1;
+  padding: 30px 100px;
+}
+/*===FOOTER===*/
+footer {
+  background-color: var(--darkCyan);
+  color: var(--blueish);
+  padding: 140px 0 60px;
+}
 
 
 
