@@ -123,11 +123,48 @@ footer {
   padding: 140px 0 60px;
 }
 
+footer ul {
+  list-style: none;
+}
 
+footer ul li {
+  margin-bottom: 20px;
+}
 
+footer .circle {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+	color: white;
+	text-decoration: none;
+}
 
+footer img {
+  margin-left: 35px;
+}
 
+footer .flex .included-icons{
+ flex-basis: 250px;
+}
 
+span {
+  margin-left: 10px;
+}
+
+.copyright-attribution {
+	justify-content: space-between;
+	font-size: 0.8rem;
+	margin-left: 35px;
+}
+
+.attribution a {
+	color: #fff;
+}
 
 
 
