@@ -166,25 +166,55 @@ span {
 	color: #fff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+/*===RESPONSIVE==*/
+@media screen and (max-width: 768px) {
+  body {
+    text-align: center;
+  }
+  .flex {
+    flex-direction: column;
+  }
+	.box-reverse-mobile {
+		flex-direction: column-reverse;
+  }
+  nav.flex {
+    margin-top: 30px;
+  }
+  .mockups {
+    margin-top: 30px;
+  }
+  footer {
+    text-align: left;
+    padding-left: 10px;
+  }
+  footer ul {
+    padding: 0;
+    width: 100%;
+  }
+  footer img {
+    margin-left: 0;
+  }
+	footer .flex ul:nth-child(2) li:last-child {
+		margin-bottom: -10px;
+  }
+  footer .flex .included-icons {
+    flex: auto;
+  }
+  .attribution {
+    margin: 0;
+  }
+  .flex.social-media {
+    flex-direction: row;
+    justify-content: center;
+  }
+	.copyright-attribution {
+		margin-left: 0;
+	}
 }
