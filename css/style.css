@@ -156,6 +156,11 @@ span {
   margin-left: 10px;
 }
 
+a {
+  text-decoration: none;
+  color: var(--blueish);
+}
+
 .copyright-attribution {
 	justify-content: space-between;
 	font-size: 0.8rem;
@@ -183,6 +188,9 @@ span {
   }
 	.box-reverse-mobile {
 		flex-direction: column-reverse;
+  }
+  nav img {
+    margin-bottom: 30px;
   }
   nav.flex {
     margin-top: 30px;
